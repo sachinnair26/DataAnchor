@@ -1,0 +1,31 @@
+{
+    "name": "dataanchor",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@azure/identity": "^2.0.1",
+        "@azure/msal-node": "^1.3.3",
+        "@microsoft/microsoft-graph-client": "^3.0.1",
+        "axios": "^0.24.0",
+        "crypto": "^1.0.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "fetch": "^1.1.0",
+        "file-encryptor": "^0.1.1",
+        "isomorphic-fetch": "^3.0.0",
+        "msal": "^1.4.15",
+        "multer": "^1.4.3",
+        "nodemon": "^2.0.15",
+        "redis": "^3.1.2",
+        "stream-to-blob": "^2.0.1",
+        "yargs": "^17.2.1"
+    }
+}
